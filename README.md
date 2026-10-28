@@ -1,5 +1,11 @@
-> **📦 Moved.** This now lives in **[`dot/bindings/python/`](https://github.com/dot-protocol/dot)** — folded into the `dot` monorepo (full history preserved) in the 2026-07 consolidation. This repo is kept as a pointer; new work happens in `dot`.
-
+> **This is the March 2026 reference implementation of DOT**, the code described in the preprint
+> *All You Need Is A Dot* ([Zenodo, 10.5281/zenodo.18945856](https://doi.org/10.5281/zenodo.18945856)): a signed,
+> chained observation format (Ed25519 signatures, SHA-256/BLAKE3 hashes) in Python, with a CLI, chain verification and
+> the four genesis experiments (`experiments/`). It is kept read-only as the paper's citable artifact. Development
+> continues in the DOT monorepo (`dot-protocol/dot`, not public yet). Licence: public domain (Unlicense).
+>
+> Run: `pip install -e .` then `python dot_cli.py --help`; the experiments are `python experiments/exp1_genesis.py` to
+> `exp4_cold_open.py`, results in `experiments/RESULTS.md`.
 ---
 
 # Observation Is All You Need
